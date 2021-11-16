@@ -41,7 +41,7 @@ void solve(){
       cin>>a[i].F>>a[i].S;
    }
    memset(dp, -1, sizeof(dp));
-   cout<<rec(0, k, x)<<"\n";
+   cout<<rec(0, k, w)<<"\n";
 }
 
 signed main(){
